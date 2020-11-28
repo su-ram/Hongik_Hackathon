@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/clickhere"
+    tools:context=".beginofwork">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+
+        app:srcCompat="@drawable/qrcode"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/notosansmedium"
+        android:gravity="center"
+        android:text="퇴근 인증"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+       />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/notosansregular"
+        android:gravity="center"
+        android:layout_marginTop="-20dp"
+        android:text="담당자에게\n위의 QR코드를 보여주세요."
+        android:textSize="14sp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="136dp"
+            android:layout_marginLeft="136dp"
+            android:fontFamily="@font/notosansmedium"
+            android:gravity="center"
+            android:text="남은 시간"
+
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="10"
+            android:textColor="@color/main"
+            android:layout_marginLeft="40dp"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/notosansmedium"
+        android:text="취소하기"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="15dp"
+         />
+</LinearLayout>
